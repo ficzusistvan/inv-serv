@@ -1,0 +1,41 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "airbnb",
+    "plugin:prettier/recommended",
+    "plugin:nestjs/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier", "jest", "nestjs", "simple-import-sort"],
+  "rules": {
+    "prettier/prettier": "error",
+    // "@typescript-eslint/indent": ["error", 4],
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    "import/extensions": 0,
+    "import/prefer-default-export": "off",
+    "class-methods-use-this": 0,
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "no-useless-constructor": "off",
+    "@typescript-eslint/no-useless-constructor": ["error"],
+    "no-empty-function": "off",
+    "@typescript-eslint/no-empty-function": ["error"],
+    "object-curly-spacing": ["always"],
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "ignorePatterns": ["dist", "node_modules", "examples", "scripts", "test"]
+}

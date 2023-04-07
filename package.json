@@ -1,0 +1,30 @@
+{
+  "name": "inv-serv",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "backend/general-api"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "@yarnpkg/plugin-workspace-tools": "^4.0.0-rc.27",
+    "eslint": "latest",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.2.2",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-nestjs": "^1.2.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "latest",
+    "pretty-quick": "latest",
+    "typescript": "latest"
+  },
+  "packageManager": "yarn@3.2.3"
+}

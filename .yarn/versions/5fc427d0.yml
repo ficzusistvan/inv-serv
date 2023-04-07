@@ -1,0 +1,9 @@
+undecided:
+  - asgard
+  - '@asgard/comms-controller'
+  - '@asgard/core-processor'
+  - '@asgard/general-api'
+  - '@asgard/payments-api'
+  - '@asgard/archive-expired-dynamodb-entries'
+  - '@asgard/core-sdk'
+  - '@asgard/core-proxy'
