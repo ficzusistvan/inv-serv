@@ -6,6 +6,9 @@
       "backend/general-api"
     ]
   },
+  "scripts": {
+    "start:local:api": "yarn workspace @inv-serv/general-api start:local"
+  },
   "devDependencies": {
     "@types/node": "latest",
     "@typescript-eslint/eslint-plugin": "^5.25.0",
