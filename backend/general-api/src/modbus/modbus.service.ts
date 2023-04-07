@@ -22,7 +22,8 @@ export class ModbusService {
     this.client.setTimeout(500);
   }
 
-  getThisShit() {
+  async getThisShit() {
+    await this.client.setID(1); // Should this be hardcoded?
     return this.client.readHoldingRegisters(0, 81);
   }
 }
